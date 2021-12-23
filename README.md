@@ -9,7 +9,7 @@ Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quise
 
 1. Primeiro, faça um fork deste projeto para sua conta no Github (crie uma se você não possuir).
 2. Em seguida, implemente o projeto tal qual descrito abaixo, em seu clone local.
-3. Por fim, envie via email o projeto ou o fork/link do projeto para seu contato @Kaila com cópia para geral@kaila.ao.
+3. Por fim, envie via email o projeto ou o fork/link do projeto para seu contato @Kaila com cópia para geral@kaila.co.ao.
 
 # Descrição do projeto
 
