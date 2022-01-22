@@ -1,4 +1,4 @@
-# Desafio programação - para vaga de programador
+# Desafio programação - para vaga de programador ✨
 
 Por favor leiam este documento do começo ao fim, com muita atenção.
 O intuito deste teste é avaliar seus conhecimentos técnicos em programação.
