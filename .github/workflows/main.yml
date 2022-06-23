@@ -1,0 +1,32 @@
+name: Create pull request
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  reatePullRequest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Reset main branch
+        run: |
+          git fetch origin develop:develop
+          git reset --hard develop
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Update master
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          branch: develop
+          title: 'Updating master'
+          labels: |
+            update
+          reviewers: danieluac
+#          team-reviewers: |
+ #           team-you-to
+          draft: false
